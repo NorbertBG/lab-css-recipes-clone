@@ -1,0 +1,61 @@
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+h1 {
+    background-image: url(/Users/norbertbusomgarcia/Desktop/Ironhack/Projects/1_recipes_clone/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 220px;
+    color: white;
+    text-align: center; 
+    font-size: 52px;
+    font-weight: 300;
+}
+h2 {
+    font-weight: 100;
+    padding: 15px;
+
+}
+.all-text {
+    margin: 8%;
+}
+.recipe-info img {
+    width: 440px;
+}
+.cooking-info img {
+    width: 380px;
+}
+p  {
+    padding: 45px
+    text-align: justify;
+    
+    }
+
+    .linea {
+        border-top: 1px solid black;
+        max-width: 900px;
+   
+        margin: 20px 40px;
+
+    }
+ .recipe-info {
+    text-align: center;
+    
+}
+
+ .cooking-info {
+    text-align: center;
+}
+ol  {
+    list-style: none;
+}
+
+ol > li {
+    counter-increment: listcounter;
+}
+ol > li::before {
+    content: counter(listcounter) ") ";
+}
