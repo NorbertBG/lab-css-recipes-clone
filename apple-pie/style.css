@@ -36,10 +36,8 @@ p  {
 
     .linea {
         border-top: 1px solid black;
-        max-width: 900px;
-   
+        text-align: center;
         margin: 20px 40px;
-
     }
  .recipe-info {
     text-align: center;
